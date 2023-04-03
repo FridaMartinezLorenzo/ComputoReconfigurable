@@ -1,0 +1,32 @@
+Name     Ejercicio2 ;
+PartNo   00 ;
+Date     29/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   3  = A                        ; /*                                 */ 
+PIN   4  = B                        ; /*                                 */ 
+PIN   5  = C                        ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   14  =  Z                      ; /*                                 */ 
+
+field entradas = [A,B,C];
+field salida =[Z];
+TABLE entradas => salida {
+    'b'000 => 'b'0;
+    'b'001 => 'b'0;
+    'b'010 => 'b'1;
+    'b'011 => 'b'0;
+    'b'100 => 'b'1;
+    'b'101 => 'b'1;
+    'b'110 => 'b'1;}
+
+
+
+

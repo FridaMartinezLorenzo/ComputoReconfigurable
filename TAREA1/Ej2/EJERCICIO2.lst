@@ -1,0 +1,44 @@
+LISTING FOR LOGIC DESCRIPTION FILE: EJERCICIO2.pld                   Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 29 14:34:29 2023
+
+  1:Name     Ejercicio2 ;
+  2:PartNo   00 ;
+  3:Date     29/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  University of Tulsa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN   3  = A                        ; /*                                 */ 
+ 13:PIN   4  = B                        ; /*                                 */ 
+ 14:PIN   5  = C                        ; /*                                 */ 
+ 15:
+ 16:/* *************** OUTPUT PINS *********************/
+ 17:PIN   14  =  Z                      ; /*                                 */ 
+ 18:
+ 19:field entradas = [A,B,C];
+ 20:field salida =[Z];
+ 21:TABLE entradas => salida {
+ 22:    'b'000 => 'b'0;
+ 23:    'b'001 => 'b'0;
+ 24:    'b'010 => 'b'1;
+ 25:    'b'011 => 'b'0;
+ 26:    'b'100 => 'b'1;
+ 27:    'b'101 => 'b'1;
+ 28:    'b'110 => 'b'1;}
+ 29:
+ 30:
+ 31:
+ 32:
+ 33:
+ 34:
+
+
+

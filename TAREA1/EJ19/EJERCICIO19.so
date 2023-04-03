@@ -1,0 +1,65 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Fri Mar 31 16:19:39 2023
+
+LISTING FOR SIMULATION FILE: EJERCICIO19.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: CLK, J, K, Salida_Q; 
+  12: 
+  13: 
+
+=============
+         S   
+         a   
+         l   
+         i   
+         d   
+      C  a   
+      L  _   
+      KJKQ   
+=============
+0001: 000L
+0002: 100L
+0003: 001L
+0004: 101L
+0005: 011L
+0006: 110H
+0007: 010H
+0008: 111L
+0009: 011L
+0010: 111H
+0011: 011H
+0012: 111L
+0013: 011L

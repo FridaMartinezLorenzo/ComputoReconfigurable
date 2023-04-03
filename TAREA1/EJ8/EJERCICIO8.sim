@@ -1,0 +1,21 @@
+%SIGNAL
+PIN  14 =  F 
+PIN   6 =  S0 
+PIN   7 =  S1 
+PIN   2 =  W0 
+PIN   3 =  W1 
+PIN   4 =  W2 
+PIN   5 =  W3 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+F =>
+    S0 & S1 & W3
+  # !S0 & S1 & W2
+  # S0 & !S1 & W1
+  # !S0 & !S1 & W0
+
+%END

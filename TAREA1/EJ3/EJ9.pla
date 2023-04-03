@@ -1,0 +1,38 @@
+#$ TOOL CUPL
+# Berkeley PLA format generated using CUPL(WM) 5.0a
+# Serial#  60008009
+# Created  Wed Mar 29 15:27:45 2023
+#
+#    Name        ej9
+#    Partno      00
+#    Revision    01
+#    Date        29/03/2023
+#    Designer    Engineer
+#    Company     University of Tulsa
+#    Assembly    None
+#    Location    
+#
+#$ TITLE  ej9
+#$ MODULE  ej9
+#$ JEDECFILE  ej9
+#$ DEVICE  virtual
+#$ PINS  13 A+:14 B+:15 C+:16 D+:17 i1+:3 i2+:4 i3+:5 i4+:6 i5+:7 i6+:8 i7+:9 i8+:10 i9+:11 
+.i 9
+.o 4
+.type f
+.ilb  i1 i2 i3 i4 i5 i6 i7 i8 i9 
+.ob   A B C D 
+.phase 1111
+.p 11
+111111111 1011
+000000-11 1000
+00-111111 1000
+0000-1111 1000
+000000011 0110
+-11111111 0100
+00000-111 0100
+000-11111 0010
+000000111 0001
+001111111 0001
+000011111 0001
+.e

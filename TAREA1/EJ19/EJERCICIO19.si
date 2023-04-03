@@ -1,0 +1,27 @@
+Name     ;
+PartNo   ;
+Date     ;
+Revision ;
+Designer ;
+Company  ;
+Assembly ;
+Location ;
+
+
+ORDER: CLK, J, K, Salida_Q; 
+
+
+VECTORS:
+000*
+100*
+001*
+101*
+011*
+110*
+010*
+111*
+011*
+111*
+011*
+111*
+011*

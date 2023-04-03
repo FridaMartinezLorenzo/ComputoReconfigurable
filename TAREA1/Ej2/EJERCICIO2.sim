@@ -1,0 +1,18 @@
+%SIGNAL
+PIN   3 =  A 
+PIN   4 =  B 
+PIN   5 =  C 
+PIN  14 =  Z 
+%END
+
+%FIELD
+FIELD entradas = A,B,C
+FIELD salida = Z
+%END
+
+%EQUATION
+Z =>
+    A & !B
+  # B & !C
+
+%END

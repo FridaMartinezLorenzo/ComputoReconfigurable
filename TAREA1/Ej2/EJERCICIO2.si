@@ -1,0 +1,22 @@
+Name     ;
+PartNo   ;
+Date     ;
+Revision ;
+Designer ;
+Company  ;
+Assembly ;
+Location ;
+
+
+ORDER: A, B, C, Z; 
+
+
+VECTORS:
+000*
+001*
+010*
+011*
+100*
+101*
+110*
+111*

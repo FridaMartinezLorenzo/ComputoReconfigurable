@@ -1,0 +1,35 @@
+LISTING FOR LOGIC DESCRIPTION FILE: EJERCICIO8.pld                   Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 29 20:54:39 2023
+
+  1:Name     EJERCICIO8 ;
+  2:PartNo   00 ;
+  3:Date     29/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  University of Tulsa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:
+ 12:/* *************** INPUT PINS *********************/
+ 13:PIN  [2,3,4,5] = [W0,W1,W2,W3]                        ; 
+ 14:PIN  [6,7]   = [S0,S1]                        ;
+ 15:
+ 16:/* *************** OUTPUT PINS *********************/
+ 17:PIN   14  = F                        ; /*                                 */ 
+ 18:
+ 19:F = (S0&S1&W3) # (S1&!S0&W2) # 
+ 20:(!S1&S0&W1) # (!S1&!S0&W0);
+ 21:
+ 22:
+ 23:
+ 24:
+ 25:
+
+
+

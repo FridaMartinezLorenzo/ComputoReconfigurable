@@ -1,0 +1,59 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 29 15:39:02 2023
+
+LISTING FOR SIMULATION FILE: EJ9.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: FIELD entradas = [i1,i2,i3,i4,i5,i6,i7,i8,i9];
+  12: FIELD salidas = [A,B,C,D];
+  13:
+  14: ORDER: A, B, C, D, !i1, !i2, !i3, !i4, !i5, !i6, !i7, !i8, !i9; 
+  15: 
+  16: 
+
+======================
+          !!!!!!!!!   
+          iiiiiiiii   
+      ABCD123456789   
+======================
+0001: HHHH111111111
+0002: LHLL011111111
+0003: HLLH001111111
+0004: HLHL000111111
+0005: HLHH000011111
+0006: HHLL000001111
+0007: HHHL000000011
+0008: LLLL000000001
+0009: LLLL000000000

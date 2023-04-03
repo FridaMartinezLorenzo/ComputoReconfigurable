@@ -1,0 +1,22 @@
+Name     Ejercicio1;
+PartNo   00 ;
+Date     29/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN  2 =  A                       ; /*                                 */ 
+PIN  3 =  B                      ; /*                                 */ 
+PIN  4 =  C                       ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   14  =    F1                    ; /*                                 */ 
+PIN   15  =    F2                    ; /*                                 */ 
+
+F1=(!C)#A&B;
+F2= (A&(!C))#(B&(!A))#((!C)&D);
+

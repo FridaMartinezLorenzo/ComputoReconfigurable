@@ -1,0 +1,40 @@
+#WAVEFORM
+#H Name     ;
+#E 0025 
+
+#H PartNo   ;
+#E 0025 
+
+#H Date     ;
+#E 0025 
+
+#H Revision ;
+#E 0025 
+
+#H Designer ;
+#E 0025 
+
+#H Company  ;
+#E 0025 
+
+#H Assembly ;
+#E 0025 
+
+#H Location ;
+#H 
+#H 
+#F entradas = [i1,i2,i3,i4,i5,i6,i7,i8,i9];
+#F salidas = [A,B,C,D];
+
+#H ORDER: A, B, C, D, !i1, !i2, !i3, !i4, !i5, !i6, !i7, !i8, !i9; 
+#H 
+#H 
+#V 0001 HHHH111111111
+#V 0002 LHLL011111111
+#V 0003 HLLH001111111
+#V 0004 HLHL000111111
+#V 0005 HLHH000011111
+#V 0006 HHLL000001111
+#V 0007 HHHL000000011
+#V 0008 LLLL000000001
+#V 0009 LLLL000000000

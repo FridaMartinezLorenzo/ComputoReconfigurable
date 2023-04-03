@@ -1,0 +1,29 @@
+#$ TOOL CUPL
+# Berkeley PLA format generated using CUPL(WM) 5.0a
+# Serial#  60008009
+# Created  Wed Mar 29 14:34:29 2023
+#
+#    Name        Ejercicio2
+#    Partno      00
+#    Revision    01
+#    Date        29/03/2023
+#    Designer    Engineer
+#    Company     University of Tulsa
+#    Assembly    None
+#    Location    
+#
+#$ TITLE  Ejercicio2
+#$ MODULE  Ejercici
+#$ JEDECFILE  Ejercici
+#$ DEVICE  virtual
+#$ PINS   4 A+:3 B+:4 C+:5 Z+:14 
+.i 3
+.o 1
+.type f
+.ilb  A B C 
+.ob   Z 
+.phase 1
+.p 2
+10- 1
+-10 1
+.e

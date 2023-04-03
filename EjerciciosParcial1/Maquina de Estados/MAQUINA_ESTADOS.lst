@@ -1,0 +1,57 @@
+LISTING FOR LOGIC DESCRIPTION FILE: MAQUINA_ESTADOS.pld              Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 22 16:10:14 2023
+
+  1:Name     Maquina_Estados ;
+  2:PartNo   00 ;
+  3:Date     22/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  University of Tulsa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN   1  =  CLK                       ; 
+ 13:PIN   2  =  ASC                       ; 
+ 14:
+ 15:/* *************** OUTPUT PINS *********************/
+ 16:PIN   14  =  q0                       ;
+ 17:PIN   15  =  q1                       ; 
+ 18:
+ 19:$define s0 'b' 00
+ 20:$define s1 'b' 01
+ 21:$define s2 'b' 10
+ 22:$define s3 'b' 11
+ 23:
+ 24:sequence q0, q1{
+ 25:        present 'b' 00 if ASC next 'b' 01;
+ 26:                default next 'b' 11;
+ 27:        present 'b' 01 if ASC next 'b' 10;
+ 28:                default next 'b' 00;
+ 29:        present 'b' 10 if ASC next 'b' 11;
+ 30:                default next 'b' 01;
+ 31:        present 'b' 11 if ASC next 'b' 00;
+ 32:                default next 'b' 10;
+ 33:}
+ 34:
+ 35:
+ 36:
+ 37:
+ 38:
+ 39:
+
+[0016cb] Please note: no expression assigned to:  q0.ar
+[0016cb] Please note: no expression assigned to:  q0.sp
+[0016cb] Please note: no expression assigned to:  q1.ar
+[0016cb] Please note: no expression assigned to:  q1.sp
+
+
+Jedec Fuse Checksum       (2684)
+Jedec Transmit Checksum   (bdee)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

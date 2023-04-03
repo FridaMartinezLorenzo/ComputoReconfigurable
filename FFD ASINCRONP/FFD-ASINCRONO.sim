@@ -1,0 +1,18 @@
+%SIGNAL
+PIN   1 =  CLK 
+PIN   3 =  clear 
+PIN   2 =  dato 
+PIN  14 =  salida_Q 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+salida_AR =>
+    clear
+
+salida_Q.d  =>
+    dato
+
+%END

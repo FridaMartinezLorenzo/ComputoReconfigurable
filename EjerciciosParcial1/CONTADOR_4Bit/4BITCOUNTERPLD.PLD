@@ -1,0 +1,61 @@
+Name     4Bit_Contador ;
+PartNo   00 ;
+Date     04/02/2012 ;
+Revision 01 ;
+Designer Engineer ;
+Company  aa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN  1   =  clk                       ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+
+PIN  14   = q0                        ; /*                                 */ 
+PIN  15   = q1                        ; /*                                 */ 
+PIN  16   = q2                     ; /*                                 */ 
+PIN  17   = q3                     ;   
+
+$define s0 'b'0000
+$define s1 'b'0001
+$define s2 'b'0010
+$define s3 'b'0011
+$define s4 'b'0100
+$define s5 'b'0101
+$define s6 'b'0110
+$define s7 'b'0111
+
+$define s8 'b'1000
+$define s9 'b'1001
+$define s10 'b'1010
+$define s11 'b'1011
+$define s12 'b'1100
+$define s13 'b'1101
+$define s14 'b'1110
+$define s15 'b'1111
+
+
+sequence q0, q1, q2, q3 
+{
+present s0 next s1;
+present s1 next s2;
+present s2 next s3;
+present s3 next s4;
+present s4 next s5;
+present s5 next s6;
+present s6 next s7;
+present s7 next s8;
+
+present s8 next s9;
+present s9 next s10;
+present s10 next s11;
+present s11 next s12;
+present s12 next s13;
+present s13 next s14;
+present s14 next s15;
+present s15 next s0;
+}
+
+

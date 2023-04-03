@@ -1,0 +1,21 @@
+Name     E8MUX ;
+PartNo   00 ;
+Date     21/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN  [2,3,4,5] = [W0,W1,W2,W3]                        ; 
+PIN  [6,7]   = [S0,S1]                        ;
+
+/* *************** OUTPUT PINS *********************/
+PIN   14  = F                        ; /*                                 */ 
+
+F = (S0&S1&W3) # (S1&!S0&W2) # 
+(!S1&S0&W1) # (!S1&!S0&W0);
+
+

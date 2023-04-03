@@ -1,0 +1,29 @@
+Name     Ejemplo090323 ;
+PartNo   00 ;
+Date     09/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  UTM ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   [2,3,4]  = [E,A,B]                         ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   [14,15,16]  = [s0,s1,s2]               ; /*                                 */ 
+
+/* *************** TABLA*********************/
+
+Field entrada =[E,A,B];
+Field salida = [s0,s1,s2];
+
+TABLE entrada => salida {
+    'b'0xx => 'b'111;
+    'b'100 => 'b'001;
+    'b'101 => 'b'011;
+    'b'110 => 'b'011;
+    'b'111 => 'b'110;}
+
+

@@ -1,0 +1,27 @@
+Name     flip-flop-D ;
+PartNo   00 ;
+Date     15/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location S:\WINCUPL_EJERCICIO\FLIP-FLOP-D ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   1  = CLK                        ; /*                                 */ 
+PIN   2  = dato                        ; /*                                 */
+PIN   3  = CLEAR		;
+
+/* *************** OUTPUT PINS *********************/
+PIN  14   = Salida_Q    ;  /*                                 */ 
+
+
+
+/* ************** REPRESENTACION FFD *****************/
+
+Salida_Q.d = dato;
+
+Salida_Q.AR = CLEAR;
+
+

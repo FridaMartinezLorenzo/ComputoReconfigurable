@@ -1,0 +1,28 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g22v10  Library DLIB-h-40-1
+# Created         Wed Mar 22 16:10:14 2023
+# Name            Maquina_Estados 
+# Partno          00 
+# Revision        01 
+# Date            22/03/2023 
+# Designer        Engineer 
+# Company         University of Tulsa 
+# Assembly        None 
+# Location        
+#
+# Inputs  1 ASC CLK q0 
+#         q1 
+# Outputs q0.d q1.d q0.oe q1.oe 
+.i 5
+.o 4
+.p 7
+---0- 1~~~
+-0-11 ~1~~
+-1-01 ~1~~
+-1-10 ~1~~
+-0-00 ~1~~
+1---- ~~1~
+1---- ~~~1
+.end

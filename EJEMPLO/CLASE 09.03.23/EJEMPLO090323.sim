@@ -1,0 +1,39 @@
+%SIGNAL
+PIN   3 =  A 
+PIN   4 =  B 
+PIN   2 =  E 
+PIN  14 =  s0 
+PIN  15 =  s1 
+PIN  16 =  s2 
+%END
+
+%FIELD
+FIELD entrada = E,A,B
+FIELD salida = s0,s1,s2
+%END
+
+%EQUATION
+s0 =>
+    !E
+  # !A & E
+  # A & !B & E
+
+s1 =>
+    !E
+  # A & !B & E
+  # B & E
+
+s2 =>
+    !E
+  # A & B & E
+
+s0.oe  =>
+    1 
+
+s1.oe  =>
+    1 
+
+s2.oe  =>
+    1 
+
+%END

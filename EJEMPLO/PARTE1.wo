@@ -1,0 +1,33 @@
+#WAVEFORM
+#H Name     ;
+#E 0025 
+
+#H PartNo   ;
+#E 0025 
+
+#H Date     ;
+#E 0025 
+
+#H Revision ;
+#E 0025 
+
+#H Designer ;
+#E 0025 
+
+#H Company  ;
+#E 0025 
+
+#H Assembly ;
+#E 0025 
+
+#H Location ;
+#H 
+#H 
+#H ORDER: A, B, f1, f2, f3, f4; 
+#H 
+#H 
+#V 0001 00LLHH
+#V 0002 01LHHH
+#V 0003 10LHLL
+#V 0004 11HHLH
+#V 0005 00LLHH

@@ -1,0 +1,30 @@
+%SIGNAL
+PIN   2 =  A 
+PIN   3 =  B 
+PIN   4 =  C 
+PIN   5 =  D 
+PIN  14 =  f1 
+PIN  15 =  f2 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+f1 =>
+    A & !C
+  # A & B & D
+  # !B & C & !D
+
+f2 =>
+    !B & C & !D
+  # A & !C & !D
+  # !A & C
+
+f1.oe  =>
+    1 
+
+f2.oe  =>
+    1 
+
+%END

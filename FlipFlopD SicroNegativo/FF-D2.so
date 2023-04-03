@@ -1,0 +1,56 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 15 22:41:57 2023
+
+LISTING FOR SIMULATION FILE: FF-D2.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: !CLK, dato, Q; 
+  12: 
+  13: 
+
+============
+      !d    
+      Ca    
+      Lt    
+      KoQ   
+============
+0001: 00L
+0002: 10L
+0003: 00L
+0004: 10L
+0005: 01L
+0006: 11H
+0007: 01H
+0008: 10L

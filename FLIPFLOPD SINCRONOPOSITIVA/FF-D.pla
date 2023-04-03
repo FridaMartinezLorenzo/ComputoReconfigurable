@@ -1,0 +1,22 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g22v10  Library DLIB-h-40-1
+# Created         Wed Mar 15 22:23:57 2023
+# Name            ff-d 
+# Partno          00 
+# Revision        01 
+# Date            15/03/2023 
+# Designer        Engineer 
+# Company         UTM 
+# Assembly        None 
+# Location        
+#
+# Inputs  1 CLK Q dato 
+# Outputs Q.d Q.oe 
+.i 4
+.o 2
+.p 2
+---1 1~
+1--- ~1
+.end

@@ -1,0 +1,64 @@
+LISTING FOR LOGIC DESCRIPTION FILE: 4BITCOUNTERPLD.pld               Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Sun Mar 26 21:18:16 2023
+
+  1:Name     3Bit_Contador ;
+  2:PartNo   00 ;
+  3:Date     04/02/2012 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  aa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN  1   =  clk                       ; /*                                 */ 
+ 13:
+ 14:/* *************** OUTPUT PINS *********************/
+ 15:
+ 16:PIN  14   = q0                        ; /*                                 */ 
+ 17:PIN  15   = q1                        ; /*                                 */ 
+ 18:PIN  16   = q2                     ; /*                                 */ 
+ 19:
+ 20:$define s0 'b'000
+ 21:$define s1 'b'001
+ 22:$define s2 'b'010
+ 23:$define s3 'b'011
+ 24:$define s4 'b'100
+ 25:$define s5 'b'101
+ 26:$define s6 'b'110
+ 27:$define s7 'b'111
+ 28:
+ 29:
+ 30:sequence q0, q1, q2
+ 31:{
+ 32:present 'b'000 next 'b'001;
+ 33:present 'b'001 next 'b'010;
+ 34:present 'b'010 next 'b'011;
+ 35:present 'b'011 next 'b'100;
+ 36:present 'b'100 next 'b'101;
+ 37:present 'b'101 next 'b'110;
+ 38:present 'b'110 next 'b'111;
+ 39:present 'b'111 next 'b'000;
+ 40:}
+ 41:
+ 42:
+ 43:
+ 44:
+
+[0016cb] Please note: no expression assigned to:  q0.ar
+[0016cb] Please note: no expression assigned to:  q0.sp
+[0016cb] Please note: no expression assigned to:  q1.ar
+[0016cb] Please note: no expression assigned to:  q1.sp
+[0016cb] Please note: no expression assigned to:  q2.ar
+[0016cb] Please note: no expression assigned to:  q2.sp
+
+
+Jedec Fuse Checksum       (3214)
+Jedec Transmit Checksum   (dd15)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

@@ -1,0 +1,45 @@
+LISTING FOR LOGIC DESCRIPTION FILE: E2_TAREA.pld                     Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Tue Mar 21 00:16:39 2023
+
+  1:Name     E2 ;
+  2:PartNo   00 ;
+  3:Date     10/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  University of Tulsa ;
+  7:Assembly None ;
+  8:Location S:\WINCUPL_EJERCICIO\EX2 ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN 2  =   A                      ; /*                                 */ 
+ 13:PIN 3  =   B                      ; /*                                 */ 
+ 14:PIN 4  =   C                      ; /*                                 */ 
+ 15:
+ 16:/* *************** OUTPUT PINS *********************/
+ 17:PIN 14  =  S0                       ; /*                                 */ 
+ 18:
+ 19:TABLE A,B,C => S0 {
+ 20:    'b'000 => 'b'0;
+ 21:    'b'001 => 'b'0;
+ 22:    'b'010 => 'b'0;
+ 23:    'b'011 => 'b'1;
+ 24:    'b'100 => 'b'0;
+ 25:    'b'101 => 'b'1;
+ 26:    'b'110 => 'b'1;
+ 27:    'b'111 => 'b'1;}
+ 28:
+ 29:
+ 30:
+ 31:
+
+
+
+Jedec Fuse Checksum       (1774)
+Jedec Transmit Checksum   (98ba)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

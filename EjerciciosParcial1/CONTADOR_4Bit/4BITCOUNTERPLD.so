@@ -1,0 +1,66 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 22 12:11:55 2023
+
+LISTING FOR SIMULATION FILE: 4BITCOUNTERPLD.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: clk, q0, q1, q2, q3; 
+  12: 
+  13: 
+
+==============
+      c       
+      lqqqq   
+      k0123   
+==============
+0001: 0LLLL
+        ^
+[0019sa] user expected (Z) for q1
+
+0002: 1HLLL
+0003: 0HLLL
+0004: 1LHLL
+0005: 0LHLL
+0006: 1HHLL
+0007: 0HHLL
+0008: 1LLHL
+0009: 0LLHL
+0010: 1HLHL
+0011: 0HLHL
+0012: 1LHHL
+0013: 0LHHL
+0014: 1HHHL
+0015: 0HHHL
+0016: 1LLLH

@@ -1,0 +1,17 @@
+%SIGNAL
+PIN   1 = !CLK 
+PIN  14 =  Q 
+PIN   2 =  dato 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+Q.d  =>
+    dato
+
+Q.oe  =>
+    1 
+
+%END

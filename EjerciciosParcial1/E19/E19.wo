@@ -1,0 +1,40 @@
+#WAVEFORM
+#H Name     ;
+#E 0025 
+
+#H PartNo   ;
+#E 0025 
+
+#H Date     ;
+#E 0025 
+
+#H Revision ;
+#E 0025 
+
+#H Designer ;
+#E 0025 
+
+#H Company  ;
+#E 0025 
+
+#H Assembly ;
+#E 0025 
+
+#H Location ;
+#H 
+#H 
+#H ORDER: CLK, dato, CLEAR, Salida_Q; 
+#H 
+#H 
+#V 0001 000L
+#V 0002 110H
+#V 0003 010H
+#V 0004 100L
+#V 0005 000L
+#V 0006 100L
+#V 0007 010L
+#V 0008 110H
+#V 0009 000H
+#V 0010 100L
+#V 0011 010L
+#V 0012 100L

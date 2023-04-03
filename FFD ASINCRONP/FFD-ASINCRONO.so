@@ -1,0 +1,68 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Thu Mar 16 22:35:52 2023
+
+LISTING FOR SIMULATION FILE: FFD-ASINCRONO.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: CLK, dato, clear, salida_Q; 
+  12: 
+  13: 
+
+=============
+         s   
+         a   
+         l   
+        ci   
+       dld   
+      Caea   
+      Lta_   
+      KorQ   
+=============
+0001: 000L
+0002: 100L
+0003: 000L
+0004: 110L
+0005: 010L
+0006: 100L
+0007: 000L
+0008: 100L
+0009: 011L
+0010: 111L
+0011: 011L
+0012: 101L
+         ^
+[0021sa] invalid test value:  1 for salida_Q
+[0019sa] user expected (1) for salida_Q
+

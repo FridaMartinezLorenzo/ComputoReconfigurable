@@ -1,0 +1,27 @@
+%SIGNAL
+PIN   2 =  ASC 
+PIN   1 =  CLK 
+PIN  14 =  q0 
+PIN  15 =  q1 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+q0.d  =>
+    q0
+
+q1.d  =>
+    !ASC & !q0 & !q1
+  # ASC & q0 & !q1
+  # ASC & !q0 & q1
+  # !ASC & q0 & q1
+
+q0.oe  =>
+    1 
+
+q1.oe  =>
+    1 
+
+%END

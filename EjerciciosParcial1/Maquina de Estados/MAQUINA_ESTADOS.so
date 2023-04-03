@@ -1,0 +1,59 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 22 16:47:26 2023
+
+LISTING FOR SIMULATION FILE: MAQUINA_ESTADOS.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: ASC, CLK, q0, q1; 
+  12: 
+  13: 
+
+=============
+      AC     
+      SLqq   
+      CK01   
+=============
+0001: 00LL
+0002: 10LL
+0003: 00LL
+0004: 10LL
+0005: 00LL
+0006: 10LL
+0007: 01HH
+0008: 11HH
+0009: 01HH
+0010: 11HH
+0011: 01HH
+0012: 11HH

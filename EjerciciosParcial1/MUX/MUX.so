@@ -1,0 +1,54 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 29 21:08:24 2023
+
+LISTING FOR SIMULATION FILE: MUX.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: S1, S0, W3, W2, W1, W0, F; 
+  12: 
+  13: 
+
+================
+      SSWWWW    
+      103210F   
+================
+0001: 000000L
+0002: 000001H
+0003: 010000L
+0004: 010010H
+0005: 100000L
+0006: 100100H
+0007: 110000L
+0008: 111000H

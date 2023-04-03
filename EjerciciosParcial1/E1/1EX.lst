@@ -1,0 +1,29 @@
+LISTING FOR LOGIC DESCRIPTION FILE: 1EX.pld                          Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 29 14:01:16 2023
+
+  1:Name     1EX ;
+  2:PartNo   00 ;
+  3:Date     10/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  University of Tulsa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN  2 =  A                       ; /*                                 */ 
+ 13:PIN  3 =  B                      ; /*                                 */ 
+ 14:PIN  4 =  C                       ; /*                                 */ 
+ 15:
+ 16:/* *************** OUTPUT PINS *********************/
+ 17:PIN   14  =    F1                    ; /*                                 */ 
+ 18:PIN   15  =    F2                    ; /*                                 */ 
+ 19:
+ 20:F1=(!C)#A&B;
+ 21:F2= (A&(!C))#(B&(!A))#((!C)&D);
+ 22:

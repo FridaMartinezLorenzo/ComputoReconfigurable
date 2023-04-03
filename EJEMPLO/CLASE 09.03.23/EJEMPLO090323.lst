@@ -1,0 +1,45 @@
+LISTING FOR LOGIC DESCRIPTION FILE: EJEMPLO090323.pld                Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Thu Mar 09 22:48:57 2023
+
+  1:Name     Ejemplo090323 ;
+  2:PartNo   00 ;
+  3:Date     09/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  UTM ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN   [2,3,4]  = [E,A,B]                         ; /*                                 */ 
+ 13:
+ 14:/* *************** OUTPUT PINS *********************/
+ 15:PIN   [14,15,16]  = [s0,s1,s2]               ; /*                                 */ 
+ 16:
+ 17:/* *************** TABLA*********************/
+ 18:
+ 19:Field entrada =[E,A,B];
+ 20:Field salida = [s0,s1,s2];
+ 21:
+ 22:TABLE entrada => salida {
+ 23:    'b'0xx => 'b'111;
+ 24:    'b'100 => 'b'001;
+ 25:    'b'101 => 'b'011;
+ 26:    'b'110 => 'b'011;
+ 27:    'b'111 => 'b'110;}
+ 28:
+ 29:
+ 30:
+ 31:
+
+
+
+Jedec Fuse Checksum       (3dc5)
+Jedec Transmit Checksum   (f3e5)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

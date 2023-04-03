@@ -1,0 +1,20 @@
+%SIGNAL
+PIN   2 =  A 
+PIN   3 =  B 
+PIN   4 =  C 
+PIN   5 =  D 
+PIN  14 =  F 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+F =>
+    !A & B
+  # !A & !C & D
+
+F.oe  =>
+    1 
+
+%END

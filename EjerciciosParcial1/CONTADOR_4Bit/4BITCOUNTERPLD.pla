@@ -1,0 +1,36 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g22v10  Library DLIB-h-40-1
+# Created         Tue Mar 21 22:03:29 2023
+# Name            4Bit_Contador 
+# Partno          00 
+# Revision        01 
+# Date            04/02/2012 
+# Designer        Engineer 
+# Company         aa 
+# Assembly        None 
+# Location        
+#
+# Inputs  1 clk q0 q1 
+#         q2 q3 
+# Outputs q0.d q1.d q2.d q3.d 
+#         q0.oe q1.oe q2.oe q3.oe 
+.i 6
+.o 8
+.p 14
+--0--- 1~~~~~~~
+--01-- ~1~~~~~~
+--10-- ~1~~~~~~
+--0-1- ~~1~~~~~
+---01- ~~1~~~~~
+--110- ~~1~~~~~
+--0--1 ~~~1~~~~
+---0-1 ~~~1~~~~
+----01 ~~~1~~~~
+--1110 ~~~1~~~~
+1----- ~~~~1~~~
+1----- ~~~~~1~~
+1----- ~~~~~~1~
+1----- ~~~~~~~1
+.end

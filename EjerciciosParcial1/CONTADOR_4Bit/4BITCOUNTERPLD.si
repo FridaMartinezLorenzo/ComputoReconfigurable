@@ -1,0 +1,30 @@
+Name     ;
+PartNo   ;
+Date     ;
+Revision ;
+Designer ;
+Company  ;
+Assembly ;
+Location ;
+
+
+ORDER: clk, q0, q1, q2, q3; 
+
+
+VECTORS:
+0*Z**
+1****
+0****
+1****
+0****
+1****
+0****
+1****
+0****
+1****
+0****
+1****
+0****
+1****
+0****
+1****

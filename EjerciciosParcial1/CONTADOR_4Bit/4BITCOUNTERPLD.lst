@@ -1,0 +1,93 @@
+LISTING FOR LOGIC DESCRIPTION FILE: 4BITCOUNTERPLD.pld               Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Tue Mar 21 22:03:29 2023
+
+  1:Name     4Bit_Contador ;
+  2:PartNo   00 ;
+  3:Date     04/02/2012 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  aa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN  1   =  clk                       ; /*                                 */ 
+ 13:
+ 14:/* *************** OUTPUT PINS *********************/
+ 15:
+ 16:PIN  14   = q0                        ; /*                                 */ 
+ 17:PIN  15   = q1                        ; /*                                 */ 
+ 18:PIN  16   = q2                     ; /*                                 */ 
+ 19:PIN  17   = q3                     ;   
+ 20:
+ 21:$define s0 'b'0000
+ 22:$define s1 'b'0001
+ 23:$define s2 'b'0010
+ 24:$define s3 'b'0011
+ 25:$define s4 'b'0100
+ 26:$define s5 'b'0101
+ 27:$define s6 'b'0110
+ 28:$define s7 'b'0111
+ 29:
+ 30:$define s8 'b'1000
+ 31:$define s9 'b'1001
+ 32:$define s10 'b'1010
+ 33:$define s11 'b'1011
+ 34:$define s12 'b'1100
+ 35:$define s13 'b'1101
+ 36:$define s14 'b'1110
+ 37:$define s15 'b'1111
+ 38:
+ 39:
+ 40:sequence q0, q1, q2, q3 
+ 41:{
+ 42:present 'b'0000 next 'b'0001;
+ 43:present 'b'0001 next 'b'0010;
+ 44:present 'b'0010 next 'b'0011;
+ 45:present 'b'0011 next 'b'0100;
+ 46:present 'b'0100 next 'b'0101;
+ 47:present 'b'0101 next 'b'0110;
+ 48:present 'b'0110 next 'b'0111;
+ 49:present 'b'0111 next 'b'1000;
+ 50:
+ 51:present 'b'1000 next 'b'1001;
+ 52:present 'b'1001 next 'b'1010;
+ 53:present 'b'1010 next 'b'1011;
+
+LISTING FOR LOGIC DESCRIPTION FILE: 4BITCOUNTERPLD.pld               Page 2
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Tue Mar 21 22:03:29 2023
+
+ 54:present 'b'1011 next 'b'1100;
+ 55:present 'b'1100 next 'b'1101;
+ 56:present 'b'1101 next 'b'1110;
+ 57:present 'b'1110 next 'b'1111;
+ 58:present 'b'1111 next 'b'0000;
+ 59:}
+ 60:
+ 61:
+ 62:
+ 63:
+
+[0016cb] Please note: no expression assigned to:  q0.ar
+[0016cb] Please note: no expression assigned to:  q0.sp
+[0016cb] Please note: no expression assigned to:  q1.ar
+[0016cb] Please note: no expression assigned to:  q1.sp
+[0016cb] Please note: no expression assigned to:  q2.ar
+[0016cb] Please note: no expression assigned to:  q2.sp
+[0016cb] Please note: no expression assigned to:  q3.ar
+[0016cb] Please note: no expression assigned to:  q3.sp
+
+
+Jedec Fuse Checksum       (4bd9)
+Jedec Transmit Checksum   (13cd)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

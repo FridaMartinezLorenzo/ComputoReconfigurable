@@ -1,0 +1,26 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g22v10  Library DLIB-h-40-1
+# Created         Wed Mar 22 12:15:19 2023
+# Name            E8MUX 
+# Partno          00 
+# Revision        01 
+# Date            21/03/2023 
+# Designer        Engineer 
+# Company         University of Tulsa 
+# Assembly        None 
+# Location        
+#
+# Inputs  1 F S0 S1 
+#         W0 W1 W2 W3 
+# Outputs F F.oe 
+.i 8
+.o 2
+.p 5
+--001--- 1~
+--10-1-- 1~
+--01--1- 1~
+--11---1 1~
+1------- ~1
+.end

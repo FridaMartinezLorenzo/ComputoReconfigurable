@@ -1,0 +1,37 @@
+Name     Maquina_Estados ;
+PartNo   00 ;
+Date     22/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   1  =  CLK                       ; 
+PIN   2  =  ASC                       ; 
+
+/* *************** OUTPUT PINS *********************/
+PIN   14  =  q0                       ;
+PIN   15  =  q1                       ; 
+
+$define s0 'b' 00
+$define s1 'b' 01
+$define s2 'b' 10
+$define s3 'b' 11
+
+sequence q0, q1{
+	present s0 if ASC next s1;
+		default next s3;
+	present s1 if ASC next s2;
+		default next s0;
+	present s2 if ASC next s3;
+		default next s1;
+	present s3 if ASC next s0;
+		default next s2;
+}
+
+
+
+

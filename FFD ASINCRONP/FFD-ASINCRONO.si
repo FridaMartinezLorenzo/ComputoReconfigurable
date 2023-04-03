@@ -1,0 +1,26 @@
+Name     ;
+PartNo   ;
+Date     ;
+Revision ;
+Designer ;
+Company  ;
+Assembly ;
+Location ;
+
+
+ORDER: CLK, dato, clear, salida_Q; 
+
+
+VECTORS:
+000*
+100*
+000*
+110*
+010*
+100*
+000*
+100*
+011*
+111*
+011*
+1011

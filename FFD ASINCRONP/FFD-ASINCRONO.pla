@@ -1,0 +1,28 @@
+#$ TOOL CUPL
+# Berkeley PLA format generated using CUPL(WM) 5.0a
+# Serial#  60008009
+# Created  Wed Mar 15 22:46:24 2023
+#
+#    Name        FFD-ASINCRONO
+#    Partno      00
+#    Revision    01
+#    Date        15/03/2023
+#    Designer    Engineer
+#    Company     UTM
+#    Assembly    None
+#    Location    
+#
+#$ TITLE  FFD-ASINCRONO
+#$ MODULE  FFD-ASIN
+#$ JEDECFILE  FFD-ASIN
+#$ DEVICE  virtual
+#$ PINS   4 CLK+:1 clear+:3 dato+:2 salida_Q+:14 
+.i 1
+.o 1
+.type f
+.ilb  dato 
+.ob   salida_Q.D 
+.phase 1
+.p 1
+1 1
+.e

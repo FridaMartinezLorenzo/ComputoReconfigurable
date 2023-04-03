@@ -1,0 +1,67 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 15 22:20:13 2023
+
+LISTING FOR SIMULATION FILE: FLIP-FLOP-D.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   9: 
+  10: 
+  11: ORDER: CLK, dato, CLEAR, Salida_Q; 
+  12: 
+  13: 
+
+=============
+         S   
+         a   
+         l   
+        Ci   
+       dLd   
+      CaEa   
+      LtA_   
+      KoRQ   
+=============
+0001: 000L
+0002: 110H
+0003: 011L
+0004: 101L
+0005: 011L
+0006: 111L
+0007: 001L
+0008: 101L
+0009: 011L
+0010: 111L
+0011: 001L
+0012: 101L

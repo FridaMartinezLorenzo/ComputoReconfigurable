@@ -1,0 +1,24 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g22v10  Library DLIB-h-40-1
+# Created         Wed Mar 15 22:12:38 2023
+# Name            flip-flop-D 
+# Partno          00 
+# Revision        01 
+# Date            15/03/2023 
+# Designer        Engineer 
+# Company         University of Tulsa 
+# Assembly        None 
+# Location        S:\WINCUPL_EJERCICIO\FLIP-FLOP-D 
+#
+# Inputs  1 CLEAR CLK Salida_Q 
+#         dato 
+# Outputs Salida_Q.d Salida_Q.ar Salida_Q.oe 
+.i 5
+.o 3
+.p 3
+----1 1~~
+-1--- ~1~
+1---- ~~1
+.end

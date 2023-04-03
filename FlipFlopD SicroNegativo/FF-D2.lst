@@ -1,0 +1,38 @@
+LISTING FOR LOGIC DESCRIPTION FILE: FF-D2.pld                        Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 15 22:39:04 2023
+
+  1:Name     FF-D2 ;
+  2:PartNo   00 ;
+  3:Date     15/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  UTM ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN   1  =   !CLK                      ; /*                                 */ 
+ 13:PIN   2  =   dato                      ; /*                                 */ 
+ 14:
+ 15:/* *************** OUTPUT PINS *********************/
+ 16:PIN   14  = Q                         ; /*                                 */ 
+ 17:
+ 18:
+ 19:/* *************** REPRESENTACION DEL FFD *********************/
+ 20:
+ 21:Q.d = dato;
+ 22:
+
+[0016cb] Please note: no expression assigned to:  Q.ar
+[0016cb] Please note: no expression assigned to:  Q.sp
+
+
+Jedec Fuse Checksum       (0cb8)
+Jedec Transmit Checksum   (747d)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

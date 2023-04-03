@@ -1,0 +1,57 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 22 12:09:18 2023
+
+LISTING FOR SIMULATION FILE: E2_TAREA.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   9: 
+  10: 
+  11: ORDER: A, B, C, S0; 
+  12: 
+  13: 
+
+=============
+         S   
+      ABC0   
+=============
+0001: 000L
+0002: 001L
+0003: 010L
+0004: 011H
+0005: 100L
+0006: 101H
+0007: 110H
+0008: 111H

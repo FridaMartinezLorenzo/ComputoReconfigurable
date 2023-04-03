@@ -1,0 +1,20 @@
+%SIGNAL
+PIN   2 =  A 
+PIN   3 =  B 
+PIN   4 =  C 
+PIN  14 =  S0 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+S0 =>
+    A & B
+  # A & C
+  # B & C
+
+S0.oe  =>
+    1 
+
+%END

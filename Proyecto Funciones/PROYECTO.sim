@@ -1,0 +1,32 @@
+%SIGNAL
+PIN   1 =  CLK 
+PIN  14 =  DA 
+PIN  15 =  DB 
+PIN  16 =  DC 
+PIN   2 =  X 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+DA.d  =>
+    !X
+
+DB.d  =>
+    DB
+
+DC.d  =>
+    DB & !DC
+  # !DB & DC
+
+DA.oe  =>
+    1 
+
+DB.oe  =>
+    1 
+
+DC.oe  =>
+    1 
+
+%END

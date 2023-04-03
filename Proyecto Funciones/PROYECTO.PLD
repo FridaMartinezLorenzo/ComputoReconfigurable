@@ -1,0 +1,25 @@
+Name     Proyecto ;
+PartNo   00 ;
+Date     24/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN  1   =  CLK                       ; /*                                 */ 
+PIN  2   =  X                       ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN  14   =  DA                       ; /*                                 */ 
+PIN  15   =  DB                       ; /*                                 */ 
+PIN  16   =  DC                       ; /*                                 */ 
+
+DC.D= (!X&!DC&DB)#(DC&!DB)#(X&!DC&DB)  ;
+
+DB.D= !DB  ;
+
+DA.D= !X  ;
+

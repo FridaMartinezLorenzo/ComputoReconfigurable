@@ -1,0 +1,26 @@
+Name     ;
+PartNo   ;
+Date     ;
+Revision ;
+Designer ;
+Company  ;
+Assembly ;
+Location ;
+
+
+ORDER: CLK, X, DA, DB, DC; 
+
+
+VECTORS:
+00***
+10***
+00***
+10***
+00***
+10***
+01***
+11***
+01***
+11***
+01***
+11***

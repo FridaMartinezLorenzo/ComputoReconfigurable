@@ -1,0 +1,59 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Fri Mar 24 06:24:22 2023
+
+LISTING FOR SIMULATION FILE: CONTADOR_FFD.si
+
+   1: Name     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   2: PartNo   ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   3: Date     ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   4: Revision ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   5: Designer ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   6: Company  ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   7: Assembly ;
+               ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location ;
+   9: 
+  10: 
+  11: ORDER: CLK, ASC, DES, q0, q1, q2; 
+  12: 
+  13: 
+
+===============
+      CAD      
+      LSEqqq   
+      KCS012   
+===============
+0001: 001LLL
+0002: 101LLL
+0003: 001LLL
+0004: 101LLL
+0005: 001LLL
+0006: 101LLL
+0007: 010LLL
+0008: 110LHL
+0009: 010LHL
+0010: 110LLH
+0011: 010LLH
+0012: 110LHH

@@ -1,0 +1,19 @@
+%SIGNAL
+PIN   1 =  CLK 
+PIN   2 =  J 
+PIN   4 =  K 
+PIN  14 =  Salida_Q 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+Salida_Q.d  =>
+    !K & !Salida_Q
+  # J & Salida_Q
+
+Salida_Q.oe  =>
+    1 
+
+%END

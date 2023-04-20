@@ -1,0 +1,24 @@
+Name     FFD-ASINCRONO ;
+PartNo   00 ;
+Date     15/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  UTM ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   1  = CLK                        ; /*                                 */ 
+PIN   2  = dato                        ; /*                                 */ 
+PIN   3  = clear                        ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   14  = salida_Q                         ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+salida_Q.d = dato;
+salida_AR = clear;/*               AR asincrono reset                  */ 
+
+
+

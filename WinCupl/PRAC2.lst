@@ -1,0 +1,55 @@
+LISTING FOR LOGIC DESCRIPTION FILE: PRAC2.pld                        Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 15 19:27:48 2023
+
+  1:Name     Prac2 ;
+  2:PartNo   00 ;
+  3:Date     15/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  UTM ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   virtual ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN   3  =   a0                      ; /*                                 */ 
+ 13:PIN   4  =   a1                      ; /*                                 */ 
+ 14:PIN   5  =   a2                      ; /*                                 */ 
+ 15:PIN   6  =   a3                      ; /*                                 */ 
+ 16:
+ 17:/* *************** OUTPUT PINS *********************/
+ 18:PIN   14  =   a                      ; /*                                 */ 
+ 19:PIN   15  =   b                      ; /*                                 */ 
+ 20:PIN   16  =   c                      ; /*                                 */ 
+ 21:PIN   17  =   d                      ; /*                                 */ 
+ 22:PIN   18  =   e                      ; /*                                 */ 
+ 23:PIN   19  =   f                      ; /*                                 */ 
+ 24:PIN   20  =   g                      ; /*                                 */ 
+ 25:
+ 26:/* ***************  TABLA *********************/
+ 27:
+ 28:FIELD entradas = [a0,a1,a2,a3];
+ 29:FIELD salidas = [a,b,c,d,e,f,g];
+ 30:
+ 31:TABLE entradas => salidas {
+ 32:    'b'0000 => 'b'1111110;
+ 33:    'b'0001 => 'b'0110000;
+ 34:    'b'0010 => 'b'1101101;
+ 35:    'b'0011 => 'b'1111001;
+ 36:    'b'0100 => 'b'0110011;
+ 37:    'b'0101 => 'b'1011011;
+ 38:    'b'0110 => 'b'1011111;
+ 39:    'b'0111 => 'b'1110000;
+ 40:    'b'1000 => 'b'1111111;
+ 41:    'b'1001 => 'b'1110011;}
+ 42:
+ 43:
+ 44:
+ 45:
+
+
+

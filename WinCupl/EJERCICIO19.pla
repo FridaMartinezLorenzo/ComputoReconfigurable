@@ -1,0 +1,24 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g22v10  Library DLIB-h-40-1
+# Created         Wed Mar 29 22:11:23 2023
+# Name            EJERCICIO19 
+# Partno          00 
+# Revision        01 
+# Date            29/03/2023 
+# Designer        Engineer 
+# Company         University of Tulsa 
+# Assembly        None 
+# Location        
+#
+# Inputs  1 CLK J K 
+#         Salida_Q 
+# Outputs Salida_Q.d Salida_Q.oe 
+.i 5
+.o 2
+.p 3
+---01 1~
+--1-0 1~
+1---- ~1
+.end

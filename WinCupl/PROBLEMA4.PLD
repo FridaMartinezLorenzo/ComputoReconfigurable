@@ -1,0 +1,48 @@
+Name     Problema4 ;
+PartNo   00 ;
+Date     31/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+
+/* *************** INPUT PINS *********************/
+PIN  1   =  CLK                        ; /*                                 */ 
+PIN  2   =  CON1                       ; /*                                 */ 
+PIN  3   =  CON2 			     ;
+
+/* *************** OUTPUT PINS *********************/
+PIN  14   =  q0                       ; /*                                 */ 
+PIN  15   =  q1                       ; /*                                 */ 
+PIN  16   =  q2  			    ;
+PIN  17   =  q3  			    ;
+
+$define s0 'b'000
+$define s1 'b'001 
+$define s2 'b'010 
+$define s3 'b'011 
+$define s4 'b'100 
+$define s5 'b'101 
+$define s6 'b'110 
+$define s7 'b'111 
+ 
+sequence q0, q1, q2, q3{
+   present s0 if CON1 next s3;
+   present s3 if CON1 next s1;
+   present s1 if CON1 next s7;
+   present s7 if CON1 next s6;
+   present s6 if CON1 next s0;
+}
+
+sequence q0, q1, q2, q3{
+   present s0 if CON2 next s1;
+   present s1 if CON2 next s2;
+   present s2 if CON2 next s4;
+   present s4 if CON2 next s5; 
+   present s5 if CON1 next s0;  
+}
+
+

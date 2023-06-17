@@ -1,0 +1,19 @@
+Name     Ejercicio2 ;
+PartNo   00 ;
+Date     29/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   2  = A                        ; /*                                 */ 
+PIN   3  = B                        ; /*                                 */ 
+PIN   4  = C                        ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   14  =  Z                      ; /*                                 */ 
+
+field entradas = 

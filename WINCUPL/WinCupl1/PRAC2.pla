@@ -1,0 +1,41 @@
+#$ TOOL CUPL
+# Berkeley PLA format generated using CUPL(WM) 5.0a
+# Serial#  60008009
+# Created  Wed Mar 15 19:27:48 2023
+#
+#    Name        Prac2
+#    Partno      00
+#    Revision    01
+#    Date        15/03/2023
+#    Designer    Engineer
+#    Company     UTM
+#    Assembly    None
+#    Location    
+#
+#$ TITLE  Prac2
+#$ MODULE  Prac2
+#$ JEDECFILE  Prac2
+#$ DEVICE  virtual
+#$ PINS  11 a+:14 a0+:3 a1+:4 a2+:5 a3+:6 b+:15 c+:16 d+:17 e+:18 f+:19 g+:20 
+.i 4
+.o 7
+.type f
+.ilb  a0 a1 a2 a3 
+.ob   a b c d e f g 
+.phase 1111111
+.p 14
+0-00 1001100
+-001 1110011
+11-0 1010000
+1010 1001010
+0110 1011111
+--00 0100000
+0010 0100000
+1110 0100000
+-0-0 0010000
+0001 0001100
+1100 0001000
+00-0 0000010
+-100 0000001
+-010 0000001
+.e

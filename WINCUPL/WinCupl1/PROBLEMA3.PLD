@@ -1,0 +1,39 @@
+Name     Problema3 ;
+PartNo   00 ;
+Date     31/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Tulsa ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN   2  =    a                     ; /*                                 */ 
+PIN   3  =    b                     ; /*                                 */ 
+PIN   4  =    c                     ; /*                                 */ 
+PIN   5  =    h                     ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   13  =    w                     ; /*                                 */ 
+PIN   14  =    x                     ; /*                                 */ 
+PIN   15  =    y                    ; /*                                 */ 
+PIN   16  =    z                     ; /*                                 */ 
+
+
+
+field entradas  =[a,b,c,h];
+field salidas = [w,x,y,z];
+
+TABLE entradas => salidas {
+    'b'0000 => 'b'0001;
+    'b'0001 => 'b'1100;
+    'b'0010 => 'b'1011;
+    'b'0011 => 'b'1001;
+    'b'0100 => 'b'0001;
+    'b'0101 => 'b'0111;
+    'b'0110 => 'b'0010;
+    'b'0111 => 'b'0000;}
+
+
+

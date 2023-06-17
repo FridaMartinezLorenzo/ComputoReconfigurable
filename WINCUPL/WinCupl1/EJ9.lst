@@ -1,0 +1,64 @@
+LISTING FOR LOGIC DESCRIPTION FILE: EJ9.pld                          Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Mar 29 15:27:25 2023
+
+  1:Name     ej9 ;
+  2:PartNo   00 ;
+  3:Date     29/03/2023 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  University of Tulsa ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g22v10 ;
+ 10:
+ 11:
+ 12:/* *************** INPUT PINS *********************/
+ 13:PIN  3    =       !i1                  ; /*                                 */ 
+ 14:PIN  4    =       !i2                  ; /*                                 */ 
+ 15:PIN  5    =       !i3                  ; /*                                 */ 
+ 16:PIN  6    =       !i4                  ; /*                                 */ 
+ 17:PIN  7    =       !i5                  ; /*                                 */ 
+ 18:PIN  8    =       !i6                  ; /*                                 */ 
+ 19:PIN  9    =       !i7                  ; /*                                 */ 
+ 20:PIN  10   =       !i8                  ; /*                                 */ 
+ 21:PIN  11   =       !i9                  ; /*                                 */ 
+ 22:
+ 23:/* *************** OUTPUT PINS *********************/
+ 24:PIN   14  =       A                ; /*                                 */ 
+ 25:PIN   15  =       B                ; /*                                 */ 
+ 26:PIN   16  =       C                ; /*                                 */ 
+ 27:PIN   17  =       D                ; /*                                 */ 
+ 28:
+ 29:
+ 30:
+ 31:field entradas =[i1,i2,i3,i4,i5,i6,i7,i8,i9];
+ 32:field salidas  =[A,B,C,D];
+ 33:
+ 34:TABLE entradas => salidas {
+ 35:    'b'000000000 => 'b'1011;
+ 36:    'b'000000000 => 'b'0110;
+ 37:    'b'000000001 => 'b'0111;
+ 38:    'b'000000011 => 'b'0100;
+ 39:    'b'000000111 => 'b'1001;
+ 40:    'b'000001111 => 'b'1010;
+ 41:    'b'000011111 => 'b'1011;
+ 42:    'b'000111111 => 'b'1100;
+ 43:    'b'001111111 => 'b'1101;
+ 44:    'b'011111111 => 'b'1110;}
+ 45:
+ 46:
+ 47:
+ 48:
+ 49:
+ 50:
+
+
+
+Jedec Fuse Checksum       (5fe8)
+Jedec Transmit Checksum   (44fa)
+[0007cc] Please note: invalid download format:  ascii-hex
+[0007cc] Please note: invalid download format:  hl

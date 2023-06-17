@@ -1,0 +1,20 @@
+Name     Multiplexor4a1 ;
+PartNo   00 ;
+Date     09/03/2023 ;
+Revision 01 ;
+Designer Engineer ;
+Company  UTM ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN  [2,3,4,5]   = [en0,en1,en2,en3]                        ; /*                                 */ 
+PIN  [6,7]   	   = [A,B]                        ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN  [14]  =  [f0]                       ; /*                                 */ 
+
+/* *************** TABLA *********************/
+
+

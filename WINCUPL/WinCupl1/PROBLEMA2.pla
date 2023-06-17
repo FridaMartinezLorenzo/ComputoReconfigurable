@@ -1,0 +1,29 @@
+#$ TOOL CUPL
+# Berkeley PLA format generated using CUPL(WM) 5.0a
+# Serial#  60008009
+# Created  Fri Mar 31 16:27:38 2023
+#
+#    Name        Problema2
+#    Partno      00
+#    Revision    01
+#    Date        31/03/2023
+#    Designer    Engineer
+#    Company     University of Tulsa
+#    Assembly    None
+#    Location    
+#
+#$ TITLE  Problema2
+#$ MODULE  Problema
+#$ JEDECFILE  Problema
+#$ DEVICE  virtual
+#$ PINS   4 CLK+:1 J+:2 K+:4 Salida_Q+:14 
+.i 3
+.o 1
+.type f
+.ilb  J K Salida_Q.Q 
+.ob   Salida_Q.D 
+.phase 1
+.p 2
+-01 1
+1-0 1
+.e

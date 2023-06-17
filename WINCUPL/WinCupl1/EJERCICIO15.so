@@ -1,0 +1,17 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Wed Mar 29 21:20:15 2023
+
+LISTING FOR SIMULATION FILE: EJERCICIO15.si
+
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbers
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbers
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersclk
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersq0
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersq0
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersq1
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersq1
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersq2
+[0033sa] Please note: jedec vectors cannot be created with undefined pin numbersq2
+[0001sa] could not open:  C:\WINCUPL\WINCUPL\EJERCICIO15.si

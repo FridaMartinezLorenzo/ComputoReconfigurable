@@ -1,0 +1,4 @@
+AR encoder behavioral /home/ise/Documents/ISE/P3_EX8/Encoder.vhd sub00/vhpl03 1683153778
+EN fulladder NULL /home/ise/Documents/ISE/P3_EX8/FullAdder.vhd sub00/vhpl00 1683153710
+EN encoder NULL /home/ise/Documents/ISE/P3_EX8/Encoder.vhd sub00/vhpl02 1683153777
+AR fulladder behavioral /home/ise/Documents/ISE/P3_EX8/FullAdder.vhd sub00/vhpl01 1683153711

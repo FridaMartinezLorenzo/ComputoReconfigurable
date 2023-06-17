@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX6/EX6.xst" -ofn "/home/ise/Documents/ISE/P3_EX6/EX6.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX6/EX6.xst" -ofn "/home/ise/Documents/ISE/P3_EX6/EX6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 EX6.ngc EX6.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EX6_map.ncd EX6.ngd EX6.pcf 
+par -w -intstyle ise -ol high -t 1 EX6_map.ncd EX6.ncd EX6.pcf 
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX6/EX6.xst" -ofn "/home/ise/Documents/ISE/P3_EX6/EX6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 EX6.ngc EX6.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EX6_map.ncd EX6.ngd EX6.pcf 
+par -w -intstyle ise -ol high -t 1 EX6_map.ncd EX6.ncd EX6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EX6.twx EX6.ncd -o EX6.twr EX6.pcf 

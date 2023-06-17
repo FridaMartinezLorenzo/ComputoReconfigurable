@@ -1,0 +1,2 @@
+vhdl work "encoder_8to3.vhd"
+vhdl work "TB_encoder_8to3.vhd"

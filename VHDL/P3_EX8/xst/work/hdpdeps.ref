@@ -1,0 +1,11 @@
+V3 6
+FL /home/ise/Documents/ISE/P3_EX8/Encoder.vhd 2023/05/03.22:41:29 P.20131013
+EN work/Encoder 1683153777 FL /home/ise/Documents/ISE/P3_EX8/Encoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Encoder/Behavioral 1683153778 \
+      FL /home/ise/Documents/ISE/P3_EX8/Encoder.vhd EN work/Encoder 1683153777
+FL /home/ise/Documents/ISE/P3_EX8/FullAdder.vhd 2023/05/03.22:36:10 P.20131013
+EN work/FullAdder 1683153710 FL /home/ise/Documents/ISE/P3_EX8/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1683153711 \
+      FL /home/ise/Documents/ISE/P3_EX8/FullAdder.vhd EN work/FullAdder 1683153710

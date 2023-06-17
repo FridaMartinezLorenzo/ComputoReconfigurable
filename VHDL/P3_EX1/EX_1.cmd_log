@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX1/EX_1.xst" -ofn "/home/ise/Documents/ISE/P3_EX1/EX_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 EX_1.ngc EX_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EX_1_map.ncd EX_1.ngd EX_1.pcf 
+par -w -intstyle ise -ol high -t 1 EX_1_map.ncd EX_1.ncd EX_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EX_1.twx EX_1.ncd -o EX_1.twr EX_1.pcf 
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX1/EX_1.xst" -ofn "/home/ise/Documents/ISE/P3_EX1/EX_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 EX_1.ngc EX_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o EX_1_map.ncd EX_1.ngd EX_1.pcf 
+par -w -intstyle ise -ol high -t 1 EX_1_map.ncd EX_1.ncd EX_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml EX_1.twx EX_1.ncd -o EX_1.twr EX_1.pcf 

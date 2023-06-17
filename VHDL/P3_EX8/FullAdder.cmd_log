@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX8/FullAdder.xst" -ofn "/home/ise/Documents/ISE/P3_EX8/FullAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FullAdder.ngc FullAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullAdder_map.ncd FullAdder.ngd FullAdder.pcf 
+par -w -intstyle ise -ol high -t 1 FullAdder_map.ncd FullAdder.ncd FullAdder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FullAdder.twx FullAdder.ncd -o FullAdder.twr FullAdder.pcf 
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX8/FullAdder.xst" -ofn "/home/ise/Documents/ISE/P3_EX8/FullAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FullAdder.ngc FullAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullAdder_map.ncd FullAdder.ngd FullAdder.pcf 
+par -w -intstyle ise -ol high -t 1 FullAdder_map.ncd FullAdder.ncd FullAdder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FullAdder.twx FullAdder.ncd -o FullAdder.twr FullAdder.pcf 

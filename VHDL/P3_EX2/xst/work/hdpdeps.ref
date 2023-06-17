@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/Documents/ISE/P3_EX2/EX2.vhd 2023/05/03.16:10:26 P.20131013
+EN work/EX2 1683130239 FL /home/ise/Documents/ISE/P3_EX2/EX2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/EX2/When_else 1683130240 \
+      FL /home/ise/Documents/ISE/P3_EX2/EX2.vhd EN work/EX2 1683130239

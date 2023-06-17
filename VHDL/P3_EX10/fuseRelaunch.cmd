@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/ISE/P3_EX10/TB_encoder_8to3_isim_beh.exe" -prj "/home/ise/Documents/ISE/P3_EX10/TB_encoder_8to3_beh.prj" "work.TB_encoder_8to3" 

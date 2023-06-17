@@ -1,0 +1,8 @@
+V3 3
+FL /home/ise/Documents/ISE/P3_EX14/RegistroDesplazamiento.vhd 2023/06/01.22:40:02 P.20131013
+EN work/RegistroDesplazamiento 1685659238 \
+      FL /home/ise/Documents/ISE/P3_EX14/RegistroDesplazamiento.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RegistroDesplazamiento/behavioral 1685659239 \
+      FL /home/ise/Documents/ISE/P3_EX14/RegistroDesplazamiento.vhd \
+      EN work/RegistroDesplazamiento 1685659238

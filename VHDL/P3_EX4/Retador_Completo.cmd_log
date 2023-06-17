@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX4/Retador_Completo.xst" -ofn "/home/ise/Documents/ISE/P3_EX4/Retador_Completo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Retador_Completo.ngc Retador_Completo.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Retador_Completo_map.ncd Retador_Completo.ngd Retador_Completo.pcf 
+par -w -intstyle ise -ol high -t 1 Retador_Completo_map.ncd Retador_Completo.ncd Retador_Completo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Retador_Completo.twx Retador_Completo.ncd -o Retador_Completo.twr Retador_Completo.pcf 

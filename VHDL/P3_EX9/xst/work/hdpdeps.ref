@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/Documents/ISE/P3_EX9/FUN.vhd 2023/06/01.20:40:24 P.20131013
+EN work/FUN 1685652253 FL /home/ise/Documents/ISE/P3_EX9/FUN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FUN/Behavioral 1685652254 \
+      FL /home/ise/Documents/ISE/P3_EX9/FUN.vhd EN work/FUN 1685652253

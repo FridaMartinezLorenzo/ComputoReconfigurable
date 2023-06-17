@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX14/RegistroDesplazamiento.xst" -ofn "/home/ise/Documents/ISE/P3_EX14/RegistroDesplazamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 RegistroDesplazamiento.ngc RegistroDesplazamiento.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o RegistroDesplazamiento_map.ncd RegistroDesplazamiento.ngd RegistroDesplazamiento.pcf 
+par -w -intstyle ise -ol high -t 1 RegistroDesplazamiento_map.ncd RegistroDesplazamiento.ncd RegistroDesplazamiento.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RegistroDesplazamiento.twx RegistroDesplazamiento.ncd -o RegistroDesplazamiento.twr RegistroDesplazamiento.pcf 

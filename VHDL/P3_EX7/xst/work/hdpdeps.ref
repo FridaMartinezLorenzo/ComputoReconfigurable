@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/Documents/ISE/P3_EX7/EX7.vhd 2023/05/03.20:50:01 P.20131013
+EN work/EX7 1683147006 FL /home/ise/Documents/ISE/P3_EX7/EX7.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/EX7/Codificador 1683147007 \
+      FL /home/ise/Documents/ISE/P3_EX7/EX7.vhd EN work/EX7 1683147006

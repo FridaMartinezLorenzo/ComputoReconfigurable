@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/ISE/P3_EX3/TB_ex3_isim_beh.exe" -prj "/home/ise/Documents/ISE/P3_EX3/TB_ex3_beh.prj" "work.TB_ex3" 

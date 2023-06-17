@@ -1,0 +1,28 @@
+Command line:
+   MAQUINAESTADOS_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58175
+
+Thu Jun  1 17:44:05 2023
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 198.603 Meg
+
+ Total Signals          : 6
+ Total Nets             : 7
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 367
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 276.201 Meg
+
+Thu Jun  1 17:48:07 2023
+

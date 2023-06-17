@@ -1,0 +1,28 @@
+Command line:
+   FFJK_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35970
+
+Thu Jun  1 20:04:05 2023
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.603 Meg
+
+ Total Signals          : 6
+ Total Nets             : 6
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 366
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 276.201 Meg
+
+Thu Jun  1 20:05:46 2023
+

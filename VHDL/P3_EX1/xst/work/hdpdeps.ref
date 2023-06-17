@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/Documents/ISE/P3_EX1/EX_1.vhd 2023/05/03.15:52:20 P.20131013
+EN work/EX_1 1683129148 FL /home/ise/Documents/ISE/P3_EX1/EX_1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/EX_1/Funciones_Boleanas 1683129149 \
+      FL /home/ise/Documents/ISE/P3_EX1/EX_1.vhd EN work/EX_1 1683129148

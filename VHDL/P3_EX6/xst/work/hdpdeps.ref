@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/Documents/ISE/P3_EX6/EX6.vhd 2023/05/03.20:28:17 P.20131013
+EN work/EX6 1683145715 FL /home/ise/Documents/ISE/P3_EX6/EX6.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/EX6/Cases 1683145716 \
+      FL /home/ise/Documents/ISE/P3_EX6/EX6.vhd EN work/EX6 1683145715

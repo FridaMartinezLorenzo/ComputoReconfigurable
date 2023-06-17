@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/P3_EX13/FFD.xst" -ofn "/home/ise/Documents/ISE/P3_EX13/FFD.syr" 

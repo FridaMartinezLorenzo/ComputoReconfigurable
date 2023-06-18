@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/CompartirISE/FRIDA/FINAL_isim_beh.exe -prj /home/ise/CompartirISE/FRIDA/FINAL_beh.prj work.FINAL 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/CompartirISE/FRIDA/EX1.vhd" into library work
+Parsing VHDL file "/home/ise/CompartirISE/FRIDA/DECO_2-4.vhd" into library work
+Parsing VHDL file "/home/ise/CompartirISE/FRIDA/FINAL.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 112896 KB
+Fuse CPU Usage: 1120 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity DECO_2_4 [deco_2_4_default]
+Compiling architecture behavioral of entity EX1 [ex1_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture behavioral of entity final
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable /home/ise/CompartirISE/FRIDA/FINAL_isim_beh.exe
+Fuse Memory Usage: 128260 KB
+Fuse CPU Usage: 1210 ms
+GCC CPU Usage: 1260 ms

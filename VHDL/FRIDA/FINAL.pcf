@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 04 01:23:03 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "EA" LOCATE = SITE "G18" LEVEL 1;
+COMP "EB" LOCATE = SITE "H18" LEVEL 1;
+COMP "EC" LOCATE = SITE "K18" LEVEL 1;
+COMP "SALIDA" LOCATE = SITE "J14" LEVEL 1;
+COMP "S<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "S<1>" LOCATE = SITE "K17" LEVEL 1;
+SCHEMATIC END;
+

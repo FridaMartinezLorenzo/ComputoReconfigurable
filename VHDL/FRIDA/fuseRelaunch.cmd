@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/CompartirISE/FRIDA/FINAL_isim_beh.exe" -prj "/home/ise/CompartirISE/FRIDA/FINAL_beh.prj" "work.FINAL" 

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/FRIDA/FINAL.xst" -ofn "/home/ise/Documents/ISE/FRIDA/FINAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FINAL.ngc FINAL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FINAL_map.ncd FINAL.ngd FINAL.pcf 
+par -w -intstyle ise -ol high -t 1 FINAL_map.ncd FINAL.ncd FINAL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FINAL.twx FINAL.ncd -o FINAL.twr FINAL.pcf 
+bitgen -intstyle ise -f FINAL.ut FINAL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FIN.ucf -p xc3s500e-fg320-4 FINAL.ngc FINAL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FINAL_map.ncd FINAL.ngd FINAL.pcf 
+par -w -intstyle ise -ol high -t 1 FINAL_map.ncd FINAL.ncd FINAL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FINAL.twx FINAL.ncd -o FINAL.twr FINAL.pcf -ucf FIN.ucf 
+bitgen -intstyle ise -f FINAL.ut FINAL.ncd 

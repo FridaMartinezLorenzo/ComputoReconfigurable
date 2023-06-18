@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/Documents/ISE/FRIDA/DECO_2_4.xst" -ofn "/home/ise/Documents/ISE/FRIDA/DECO_2_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 DECO_2_4.ngc DECO_2_4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DECO_2_4_map.ncd DECO_2_4.ngd DECO_2_4.pcf 
+par -w -intstyle ise -ol high -t 1 DECO_2_4_map.ncd DECO_2_4.ncd DECO_2_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DECO_2_4.twx DECO_2_4.ncd -o DECO_2_4.twr DECO_2_4.pcf 
+vhdtdtfi -lib work DECO_2-4.vhd -prj FRIDA -o DECO_2_4.spl -module DECO_2_4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DECO_2_4.spl /home/ise/Documents/ISE/FRIDA/DECO_2_4.sym 

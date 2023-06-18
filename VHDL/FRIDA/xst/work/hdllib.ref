@@ -1,0 +1,6 @@
+EN deco_2_4 NULL /home/ise/Documents/ISE/FRIDA/DECO_2-4.vhd sub00/vhpl00 1683162967
+EN ex1 NULL /home/ise/Documents/ISE/FRIDA/EX1.vhd sub00/vhpl02 1683162969
+EN final NULL /home/ise/Documents/ISE/FRIDA/FINAL.vhf sub00/vhpl04 1683162971
+AR ex1 behavioral /home/ise/Documents/ISE/FRIDA/EX1.vhd sub00/vhpl03 1683162970
+AR deco_2_4 behavioral /home/ise/Documents/ISE/FRIDA/DECO_2-4.vhd sub00/vhpl01 1683162968
+AR final behavioral /home/ise/Documents/ISE/FRIDA/FINAL.vhf sub00/vhpl05 1683162972

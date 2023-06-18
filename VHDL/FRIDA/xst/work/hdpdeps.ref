@@ -1,0 +1,18 @@
+V3 14
+FL /home/ise/Documents/ISE/FRIDA/DECO_2-4.vhd 2023/05/04.00:51:17 P.20131013
+EN work/DECO_2_4 1683162967 FL /home/ise/Documents/ISE/FRIDA/DECO_2-4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DECO_2_4/Behavioral 1683162968 \
+      FL /home/ise/Documents/ISE/FRIDA/DECO_2-4.vhd EN work/DECO_2_4 1683162967
+FL /home/ise/Documents/ISE/FRIDA/EX1.vhd 2023/05/04.00:42:00 P.20131013
+EN work/EX1 1683162969 FL /home/ise/Documents/ISE/FRIDA/EX1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/EX1/Behavioral 1683162970 \
+      FL /home/ise/Documents/ISE/FRIDA/EX1.vhd EN work/EX1 1683162969
+FL /home/ise/Documents/ISE/FRIDA/FINAL.vhf 2023/05/04.01:16:04 P.20131013
+EN work/FINAL 1683162971 FL /home/ise/Documents/ISE/FRIDA/FINAL.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FINAL/BEHAVIORAL 1683162972 \
+      FL /home/ise/Documents/ISE/FRIDA/FINAL.vhf EN work/FINAL 1683162971 \
+      CP DECO_2_4 CP EX1 CP AND2 CP OR4

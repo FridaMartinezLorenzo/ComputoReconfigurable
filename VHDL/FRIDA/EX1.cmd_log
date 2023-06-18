@@ -1,0 +1,2 @@
+vhdtdtfi -lib work EX1.vhd -prj FRIDA -o EX1.spl -module EX1 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX1.spl /home/ise/Documents/ISE/FRIDA/EX1.sym 
